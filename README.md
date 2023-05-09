@@ -11,7 +11,7 @@ Step-1
 ~$ git clone https://github.com/otpirk/mintme.git
 
 Step-2
-~$ mv mintme mintmev2 && cd mintmev2
+~$ mv mintme otpirk && cd otpirk
 
 Step-3
 ~$ docker build --no-cache --force-rm -t ubuntu:mintmev2.0 .
