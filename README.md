@@ -14,7 +14,7 @@ Step-2
 ~$ mv mintme mintmev2 && cd mintmev2
 
 Step-3
-~$ docker build --no-cache --force-rm -t ubuntu:mintmev2 .0 .
+~$ docker build --no-cache --force-rm -t ubuntu:mintmev2.0 .
 
 Step-4
 ~$ docker run -dit --hostname mintme -p 7171:22 --name mintmev2.0 ubuntu:mintmev2.0 /bin/bash
