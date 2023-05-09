@@ -21,4 +21,8 @@ Step-4
 Step-5
 ~$ docker exec -it mintmev2.0 /bin/bash
 
-Step above, just adjust to your configuration.
+Step-6
+~$ ./webchain-miner
+
+
+Step above following adjust to your configuration.
