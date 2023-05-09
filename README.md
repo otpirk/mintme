@@ -1,4 +1,4 @@
-# mintme
+# Mining Mint-me Coin From Ubuntu using Docker [ PC/Server-Version ]
 How to activate Mint-me Miner from Ubuntu using Docker.
 - Prepare Mint-me Wallet first
 - Prepare your CPU Thread
