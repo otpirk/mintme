@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 MAINTAINER Otpirk otpirk@outlook.com
-RUN apt-get update && apt upgrade
+RUN apt-get update
 RUN apt-get -y install wget nano htop sudo openssh-server screen git
 RUN useradd -ms /bin/bash root
 RUN echo 'root:1234' | chpasswd
