@@ -3,8 +3,8 @@ How to activate Mint-me Miner from Ubuntu using Docker.
 - Prepare Mint-me Wallet first
    <br/> "user": "0x15482e6553bc529b632a74540597cecb1be2279f",   // username for mining server
 - Prepare your CPU Thread
-    "cpu-priority": 2,   // set process priority (0 idle, 2 normal to 5 highest)
-    "donate-level": 1,   // donate level, mininum 1%
+    <br/> "cpu-priority": 2,   // set process priority (0 idle, 2 normal to 5 highest)
+   <br/>  "donate-level": 1,   // donate level, mininum 1%
 - option settings.
 
 Do the steps above on this [https://github.com/otpirk/mintme/blob/main/config.json]
