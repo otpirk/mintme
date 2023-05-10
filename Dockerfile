@@ -14,4 +14,4 @@ RUN /home/otpirk
 COPY ./ /home/otpirk/
 #RUN systemctl start ssh
 #RUN service ssh start
-RUN chmod a+x webchain-miner
+#RUN chmod a+x webchain-miner
