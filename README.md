@@ -12,6 +12,10 @@ Do the steps above on this [https://github.com/otpirk/mintme/blob/main/config.js
 A. Simple Step<br/>
 1. Execute Installation Command and direct Miner running automated on Container <br/>
    screen -S mintme -dm /bin/sh -c 'sh mintme/install.sh; exec /bin/sh'
+2. Show/Use Terminal Miner running on Process<br/>
+   screen -r mintme
+3. Switching Back From Terminal Container to Main Terminal Host<br/>
+   Ctrl+AD
 
 B. Step By Step<br/>
 Here are the main steps that need to be followed to get this, through these commands.
