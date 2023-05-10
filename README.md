@@ -11,7 +11,7 @@ Do the steps above on this [https://github.com/otpirk/mintme/blob/main/config.js
 
 A. Simple Step<br/>
 1. Execute Installation<br/>
-   sh install.sh
+   sh mintme/install.sh
 
 B. Step By Step<br/>
 Here are the main steps that need to be followed to get this, through these commands.
