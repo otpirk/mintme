@@ -11,16 +11,16 @@ Step-1
 ~$ git clone https://github.com/otpirk/mintme.git
 
 Step-2
-~$ mv mintme otpirk && cd otpirk
+~$ mv /home/mintme /home/otpirk && cd otpirk
 
 Step-3
-~$ docker build --no-cache --force-rm -t ubuntu:mintmev2.0 .
+~$ docker build --no-cache --force-rm -t ubuntu:mintmev2.1 .
 
 Step-4
-~$ docker run -dit --hostname mintme -p 7171:22 --name mintmev2.0 ubuntu:mintmev2.0 /bin/bash
+~$ docker run -dit --hostname mintme21 -p 9191:22 --name mintmev2.1 ubuntu:mintmev2.1 /bin/bash
 
 Step-5
-~$ docker exec -it mintmev2.0 /bin/bash
+~$ docker exec -it mintmev2.1 /bin/bash
 
 Step-6
 ~$ ./webchain-miner
