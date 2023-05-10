@@ -13,7 +13,7 @@ Step-1
 ~$ git clone https://github.com/otpirk/mintme.git
 
 Step-2
-~$ cp mintme /home/ && mv /home/mintme /home/otpirk && cd /home/otpirk
+~$ cp -R mintme /home/ && mv /home/mintme /home/otpirk && cd /home/otpirk
 
 Step-3
 ~$ docker build --no-cache --force-rm -t ubuntu:mintmev2.1 .
