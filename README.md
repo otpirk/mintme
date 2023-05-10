@@ -11,7 +11,7 @@ Do the steps above on this [https://github.com/otpirk/mintme/blob/main/config.js
 
 A. Simple Step<br/>
 1. Cloning Directory to Host<br/>
-~$ git clong https://github.com/otpirk/mintme.git
+~$ git clone https://github.com/otpirk/mintme.git
 2. Execute Installation<br/>
 ~$ cd mintme && sh install.sh
 
