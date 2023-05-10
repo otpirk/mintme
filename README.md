@@ -13,7 +13,8 @@ A. Simple Step<br/>
 1. Cloning Directory to Host<br/>
    git clong https://github.com/otpirk/mintme.git
 2. Execute Installation<br/>
-   cd mintme && sh install.sh<br/>
+   cd mintme && sh install.sh
+
 B. Step By Step<br/>
 Here are the main steps that need to be followed to get this, through these commands.
 
