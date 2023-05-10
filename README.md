@@ -25,6 +25,9 @@ Step-5
 ~$ docker exec -it mintmev2.1 /bin/bash
 
 Step-6
+~$ chmod a+x webchain-miner
+
+Step-7
 ~$ ./webchain-miner
 
 
