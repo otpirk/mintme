@@ -10,11 +10,13 @@ How to activate Mint-me Miner from Ubuntu using Docker.
 Do the steps above on this [https://github.com/otpirk/mintme/blob/main/config.json]
 
 A. Simple Step<br/>
-1. Execute Installation Command and direct Miner running automated on Container <br/>
+1. Coppying all file in 1 directory to Host  <br/>
+   <b>git clone https://github.com/otpirk/mintme.git</b>
+2. Execute Installation Command and direct Miner running automated on Container <br/>
    <b>screen -S mintme -dm /bin/sh -c 'sh mintme/install.sh; exec /bin/sh'</b>
-2. Show/Use Terminal Miner running on Process<br/>
+3. Show/Use Terminal Miner running on Process<br/>
    <b>screen -r mintme</b>
-3. Switching Back From Terminal Container to Main Terminal Host<br/>
+4. Switching Back From Terminal Container to Main Terminal Host<br/>
    <b>Ctrl+AD</b>
 
 B. Step By Step<br/>
